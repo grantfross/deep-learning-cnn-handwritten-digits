@@ -5,7 +5,7 @@ This project implements a convolutional neural network (CNN) using Keras to clas
 ## Model details
 
 - Architecture: Convolutional Neural Network
-- Framework: Keras (TensorFlow backend)
+- Framework: TensorFlow (Keras API)
 - Input: 28×28 grayscale images
 - Output: 10 digit classes (0–9)
 - Loss function: categorical_crossentropy
@@ -17,6 +17,10 @@ This project implements a convolutional neural network (CNN) using Keras to clas
 - Validation accuracy: ~99.10%
 
 The close alignment between training and validation performance indicates that the model generalizes well and avoids overfitting.
+
+## Training behavior
+
+Training and validation loss decrease smoothly and remain closely aligned throughout training, indicating stable convergence and effective regularization.
 
 ## Files
 
